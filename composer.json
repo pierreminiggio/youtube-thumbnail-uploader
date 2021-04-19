@@ -1,0 +1,25 @@
+{
+    "name": "pierreminiggio/youtube-thumbnail-uploader",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\YoutubeThumbnailUploader\\": "src/"
+        }
+    },
+    "require-dev": {},
+    "scripts": {},
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
