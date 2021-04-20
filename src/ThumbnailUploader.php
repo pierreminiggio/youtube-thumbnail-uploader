@@ -9,6 +9,10 @@ use RuntimeException;
 class ThumbnailUploader
 {
 
+    /**
+     * @throws BadVideoIdException
+     * @throws ThumbnailFeatureNotAvailableException
+     */
     public function upload(
         string $accessToken,
         string $videoId,
