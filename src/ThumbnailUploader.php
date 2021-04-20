@@ -11,6 +11,7 @@ class ThumbnailUploader
 
     /**
      * @throws BadVideoIdException
+     * @throws RuntimeException
      * @throws ThumbnailFeatureNotAvailableException
      */
     public function upload(
