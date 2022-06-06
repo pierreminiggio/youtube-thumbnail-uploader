@@ -8,7 +8,6 @@
             "email": "pierre@miniggiodev.fr"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4.0"
     },
